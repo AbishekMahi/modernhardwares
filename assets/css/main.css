@@ -19,7 +19,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  /* --color-primary: #008374; */
+  --color-primary: #123753;
   --color-secondary: #f85a40;
 }
 
@@ -34,6 +35,27 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #25D366;
+  color: white !important;
+  cursor: pointer;
+  padding: 8px 13px;
+  border-radius: 50px;
+  font-size: 22px;
+  transition: 300ms;
+}
+
+.whatsapp:hover {
+  color: white !important;
+  bottom: 75px;
 }
 
 a {
@@ -55,7 +77,7 @@ h6 {
   font-family: var(--font-primary);
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
 }
 
@@ -252,7 +274,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #1a446e;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -322,8 +344,8 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 60px;
+  margin-right: 5px;
 }
 
 .header .logo h1 {
@@ -381,7 +403,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.75);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -517,7 +539,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #081825e6;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -532,7 +554,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.75);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -629,6 +651,11 @@ section {
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
+}
+
+.abt-row {
+  display: flex;
+  align-items: center !important;
 }
 
 .about .call-us {
@@ -1762,7 +1789,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #194d77;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -2080,7 +2107,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  z-index:0;
+  z-index: 0;
   transition-duration: 0.4s;
 }
 
