@@ -1,0 +1,6 @@
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.kiruvin.com/ [R=301,L]
+
+ErrorDocument 404 /404-error.html

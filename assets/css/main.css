@@ -1,4 +1,3 @@
-
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1080,7 +1079,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #ff2f2fe8;
 }
 
 .services .service-item:hover h3 {
@@ -1210,7 +1209,7 @@ section {
   border-radius: 5px;
   font-size: 18px;
   font-weight: 500;
-  margin: 0 10px;
+  margin: 8px;
   line-height: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -1233,7 +1232,7 @@ section {
 @media (max-width: 575px) {
   .portfolio .portfolio-flters li {
     font-size: 14px;
-    margin: 0 5px;
+    margin: 5px;
   }
 }
 
@@ -1942,7 +1941,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #df1529;
 }
 
 @-webkit-keyframes animate-loading {
