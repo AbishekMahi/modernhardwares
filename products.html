@@ -128,6 +128,7 @@
                 </div>
             </nav>
         </div><!-- End Breadcrumbs -->
+
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio sections-bg">
             <div class="container" data-aos="fade-up">
@@ -148,156 +149,267 @@
                             <li data-filter=".filter-books">Plubing Products</li>
                             <li data-filter=".filter-app">Plywoods</li>
                             <li data-filter=".filter-product">Chimneys</li>
-                        </ul><!-- End Portfolio Filters -->
-                    </div><br>
+                        </ul>
+                    </div>
+                    <br>
 
-                    <div class="row gy-4 portfolio-container">
+                    <!-- Products
+                    1) Hardware
+                       Hinges & Bolts
+                       Main door Handles
+                       Rose Handles
+                       Cabinet Handles
+                       Window Handles
+                       Knobs
+                       Digital Locks
+                       Locks
+                       Video Door Phone
+                       Safes
+                       Door closer
+                       Sliding Fittings
+                       Channels & Accessories
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Lock 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    2) Modular Kitchen
+                       Hafele
+                       Sleek
+                       Stars
+
+                    3) Wardrobe
+                       Leather Strong Box
+                       Trouser Rack Pull out
+                       Shoe Rack
+                       Garment Duo Lift
+
+                    6) Bath ware
+                    7) Sinks
+                    8) Hob
+                    9) Cook top
+                    10) Chimney
+                    11) Door
+                    12) Plywood’s
+                    13) Laminate
+                    14) Louvers
+                    15) veneers -->
+
+                    <div class="row" style="width: 100%;">
+                        <div class="flex-shrink-0 p-3 bg-white col" style="width: 20%; border-radius: 10px;">
+                            <!-- <a href="/"
+                                class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                                <svg class="bi me-2" width="30" height="24">
+                                    <use xlink:href="#bootstrap"></use>
+                                </svg>
+                                <span class="fs-5 fw-semibold">Collapsible</span>
+                            </a> -->
+                            <ul class="list-unstyled ps-0">
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse"
+                                        data-bs-target="#home-collapse" aria-expanded="true" >
+                                        Hardware
+                                    </button>
+                                    <div class="collapse show" id="home-collapse"data-filter="*"
+                                        class="filter-active">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="link-dark rounded">Hinges & Bolts</a></li>
+                                            <li><a href="#" class="link-dark rounded">Main door Handles</a></li>
+                                            <li><a href="#" class="link-dark rounded">Rose Handles</a></li>
+                                            <li><a href="#" class="link-dark rounded">Cabinet Handles</a></li>
+                                            <li><a href="#" class="link-dark rounded">Window Handles</a></li>
+                                            <li><a href="#" class="link-dark rounded">Knobs</a></li>
+                                            <li><a href="#" class="link-dark rounded">Digital Locks</a></li>
+                                            <li><a href="#" class="link-dark rounded">Locks</a></li>
+                                            <li><a href="#" class="link-dark rounded">Video Door Phone</a></li>
+                                            <li><a href="#" class="link-dark rounded">Safes</a></li>
+                                            <li><a href="#" class="link-dark rounded">Door closer</a></li>
+                                            <li><a href="#" class="link-dark rounded">Sliding Fittings</a></li>
+                                            <li><a href="#" class="link-dark rounded">Channels & Accessories</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#dashboard-collapse"
+                                        aria-expanded="false" data-filter=".filter-branding">
+                                        Modular Kitchen
+                                    </button>
+                                    <div class="collapse" id="dashboard-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                            <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                            <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                            <li><a href="#" class="link-dark rounded">Annually</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse"
+                                        data-bs-target="#orders-collapse" aria-expanded="true">
+                                        Orders
+                                    </button>
+                                    <div class="collapse show" id="orders-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="link-dark rounded">New</a></li>
+                                            <li><a href="#" class="link-dark rounded">Processed</a></li>
+                                            <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                                            <li><a href="#" class="link-dark rounded">Returned</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="border-top my-3"></li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse"
+                                        data-bs-target="#account-collapse" aria-expanded="true">
+                                        Account
+                                    </button>
+                                    <div class="collapse show" id="account-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- product box -->
+                        <div class="row gy-4 portfolio-container"
+                            style="margin: 0%; width: 80%; justify-content: center;align-items: center;">
+                            <!-- <center> -->
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-app">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Lock 1</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Product 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-product">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/product-1.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Product 1</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Vault 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-branding">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/branding-1.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Vault 1</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Books 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-books">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Books 1</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Lock 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-app">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Lock 2</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Product 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-product">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/product-2.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Product 2</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Vault 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-branding">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/branding-2.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Vault 2</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/books-2.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Books 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-books">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/books-2.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Books 2</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Lock 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-app">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Lock 3</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/product-3.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Product 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-product">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/product-3.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Product 3</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Vault 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-branding">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/branding-3.jpg"
+                                            class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Vault 3</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
 
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app"
-                                    class="glightbox"><img src="assets/img/portfolio/books-3.jpg" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="#" title="More Details">Books 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="col-xl-3 col-lg-3 col-md-4 portfolio-item filter-books">
+                                <div class="portfolio-wrap">
+                                    <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app"
+                                        class="glightbox"><img src="assets/img/portfolio/books-3.jpg" class="img-fluid"
+                                            alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="#" title="More Details">Books 3</a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
-
-                    </div><!-- End Portfolio Container -->
+                            <!-- </center> -->
+                        </div>
+                    </div>
+                    <!-- End Portfolio Container -->
                 </div>
             </div>
         </section><!-- End Portfolio Section -->
